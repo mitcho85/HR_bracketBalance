@@ -45,6 +45,7 @@ bool is_balanced(string expression) {
 			else return false;
 		}
 	}
+	if (symbols.size() != 0) return false;
 	return true;
 }
 
